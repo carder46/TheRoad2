@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://b082gksvrnt8u"]
+
+[ext_resource type="PackedScene" uid="uid://cqpwlylyrgcub" path="res://Environment.blend" id="1_bxbke"]
+
+[node name="Environment" instance=ExtResource("1_bxbke")]

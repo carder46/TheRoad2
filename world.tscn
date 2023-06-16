@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2hndxab06e3i"]
+
+[ext_resource type="PackedScene" uid="uid://b082gksvrnt8u" path="res://environment.tscn" id="1_jwmyl"]
+[ext_resource type="PackedScene" uid="uid://bhdhxbnwsg61r" path="res://pickup.tscn" id="2_52hvw"]
+[ext_resource type="PackedScene" uid="uid://cafqwvwen7ote" path="res://player.tscn" id="3_a7clr"]
+
+[node name="World" type="Node3D"]
+
+[node name="Environment" parent="." instance=ExtResource("1_jwmyl")]
+
+[node name="Pickup" parent="." instance=ExtResource("2_52hvw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.80996, 0.814199, 0)
+
+[node name="Player" parent="." instance=ExtResource("3_a7clr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23997, 0)
